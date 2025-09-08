@@ -1,7 +1,7 @@
 # Globe Facts
 
 An interactive, cartoony 3D globe built with **Next.js 14**, **React Three Fiber**, and **OpenAI**.  
-Users can spin and zoom the globe, click on any country, and see a popup panel with facts, history, languages, and landmarks — all generated on demand via the OpenAI API.  
+Users can spin and zoom the globe, click on any country, and see a popup panel with facts, history, languages, and landmarks, all generated on demand via the OpenAI API.  
 Includes **Google Maps search/autocomplete** to jump to specific countries or cities.
 
 **Currently working on better selected country overlay and fixing bug with slecting a country through the globe**
