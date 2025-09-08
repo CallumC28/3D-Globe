@@ -103,3 +103,13 @@ GOOGLE_MAPS_API_KEY=your_restricted_google_key_here
 - OpenAI responses may vary slightly; schema is validated but facts are not “guaranteed”.
 
 - No permanent cache: redeploying clears in-memory cache.
+
+---
+
+## To Do
+
+- Refine the overall globe to look better
+- Fix the issue with Russia (because its polygon crosses the 180 degree meridian, causing triangulation to draw long diagonal spikes across the globe.)
+- Make selected countries stick out from teh globe like a lifted puzzle piece
+- Add right click to move the globe orientation
+- Add more countires to countryMap.ts
