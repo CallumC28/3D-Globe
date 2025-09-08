@@ -1,0 +1,38 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --bg: 255 255 255;
+  --fg: 20 24 30;
+}
+
+[data-theme="dark"] {
+  --bg: 8 10 14;
+  --fg: 232 235 241;
+}
+
+html, body, #__next {
+  height: 100%;
+}
+
+body {
+  color: rgb(var(--fg));
+  background: rgb(var(--bg));
+}
+
+.btn {
+  @apply inline-flex items-center gap-2 rounded-2xl px-4 py-2 text-sm font-medium shadow-soft transition active:scale-95 bg-brand-600 text-white hover:bg-brand-700;
+}
+
+.card {
+  @apply rounded-2xl border border-black/5 bg-white/80 dark:bg-white/5 backdrop-blur p-4 shadow-soft;
+}
+
+.input {
+  @apply w-full rounded-xl border border-black/10 dark:border-white/10 bg-white dark:bg-white/5 px-3 py-2 outline-none focus:ring-2 focus:ring-brand-500;
+}
+
+.kbd {
+  @apply inline-flex items-center justify-center rounded-md border border-black/20 dark:border-white/20 px-2 py-0.5 text-xs font-mono;
+}
