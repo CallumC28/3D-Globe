@@ -29,9 +29,6 @@ Includes **Google Maps search/autocomplete** to jump to specific countries or ci
   - Google Places Autocomplete for searching countries/cities.
   - Geocoding → find country → focus globe.
 
-- **Optional Landmarks**
-  - Top 5 landmarks via Google Places API, shown as pins.
-
 - **Cartoony Style**
   - Green land, blue oceans, soft glow rim.
   - Clean dark mode styling with Tailwind CSS.
